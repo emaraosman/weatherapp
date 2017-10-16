@@ -6,7 +6,7 @@ $(document).ready(function() {
 
     event.preventDefault();
     var zipcode = $(".text-input").val();
-    let endpoint = "http://api.openweathermap.org/data/2.5/weather?units=imperial&appid=3897c2c1e66115af8ad1a7eaa829a13f"
+    let endpoint = "https://api.openweathermap.org/data/2.5/weather?units=imperial&appid=3897c2c1e66115af8ad1a7eaa829a13f"
 
     $.ajax({
       method: 'GET',
